@@ -110,14 +110,15 @@ h1 {
     editor.focus();
     editor.setOptions({
       fontSize: "12pt",
-      showLineNumbers: false,
-      showGutter: false,
+      showLineNumbers: true,
+      showGutter: true,
       vScrollBarAlwaysVisible: true,
       enableBasicAutocompletion: false, enableLiveAutocompletion: false
     });
 
     editor.setShowPrintMargin(false);
     editor.setBehavioursEnabled(false);
+   
   }
 
   setupEditor();
